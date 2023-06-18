@@ -1,0 +1,19 @@
+body {
+  background-color: #4ccb7f;
+}
+
+.textInSeparator{
+  background-color: #fff;
+  padding: 0.5em;
+  position: relative;
+  color: #6c7378;
+  top: -0.7em;
+}
+
+.loginSignUpSeparator {
+  border-top: 1px solid #cbd2d6;
+  position: relative;
+  margin-top: 28px;
+  margin-bottom: 18px;
+  height: 15px;
+}

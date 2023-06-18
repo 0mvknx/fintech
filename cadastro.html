@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Cadastro</title>
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+      <link rel="stylesheet" href="bootstrap/css/style.css">
+      <script src="bootstrap/js/jquery.min.js"></script>
+      <script src="bootstrap/js/popper.min.js"></script>
+      <script src="bootstrap/js/bootstrap.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <link rel="stylesheet" href="assets/style.css">
+   </head>
+   <body>
+      <div class="container mt-4">
+         <div class="row align-items-center">
+            <div class="col-md-10 mx-auto col-lg-5">
+               <form class="p-4 p-md-5 border rounded-3 bg-light" >
+                  <div class="form-floating mb-3">
+                     <input type="text" class="form-control" id="inputNome" placeholder="Nome" />
+                     <label for="inputNome">Nome</label>
+                  </div>                    
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="inputRG" placeholder="RG" />
+                    <label for="inputRG">RG</label>
+                 </div>
+                 <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="inputEmail" placeholder="E-Mail" />
+                    <label for="inputEmail">E-Mail</label>
+                 </div>
+                 <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="inputCep" placeholder="CEP" />
+                    <label for="inputCep">CEP</label>
+                 </div>
+                 <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="inputEndereco" placeholder="Endereço" />
+                    <label for="inputEndereco">Endereço</label>
+                 </div>
+                 <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="inputProfissao" placeholder="Profissão" />
+                    <label for="inputProfissao">Profissão</label>
+                 </div>
+                 <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="inputRenda" placeholder="Renda" />
+                    <label for="inputRenda">Renda</label>
+                 </div>
+                 <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="inputSenha" placeholder="Senha" />
+                    <label for="inputSenha">Senha</label>
+                 </div>
+                 <button type="submit" class="w-100 btn btn-lg btn-sucess" style="background-color: #007bff; color: white;">Finalizar</button>
+                  <div class="text-center mt-3">
+                     <div class="loginSignUpSeparator">
+                        <div ><span class="textInSeparator">ou</span></div>
+                     </div>
+                  </div>
+                  <button type="button" class="w-100 btn btn-lg btn-sucess" style="background-color: #000000;  color: white;" onclick="Voltar()">
+                  Voltar
+                  </button> 
+               </form>
+            </div>
+         </div>
+      </div>
+      </div>
+      <script> function Voltar(){ window.location.href = "index.html"; } </script>
+   </body>
+</html>
